@@ -1,0 +1,87 @@
+/*
+* Stylesheet for the html elements of the game
+*/
+* {
+  background-color: #3F3851;
+}
+
+body {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1bafdb;
+  font-family: Arial;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+    border:none;
+    appearance:none;
+    outline:none;
+    display:inline-block;
+    font-size:1.5em;
+    cursor:pointer;
+    text-decoration:none;
+    padding: 20px;
+    /* padding:12px 48px 12px 48px; */
+    border-radius:4px;
+    color:#ffffff;
+    background-color:#1bafdb;
+    border: 2px solid #ffffff;
+    margin: 4px;
+}
+button {   transition-duration: 0.4s; }
+button:hover {
+    font-size:1.6em;
+    background-color:#05c46b;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+  float: center;
+  margin-right: 40px;
+}
+
+.screen {
+    padding: 20px;
+    position: fixed;
+    top:30%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    height:200px;
+    width:250px;
+    text-align: center;
+}
+
+.instructions-screen {
+    padding: 20px;
+    position: fixed;
+    top:30%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    height:200px;
+    width:250px;
+    text-align: center;
+}
+
+.initial-screen {
+    padding: 20px;
+    position: fixed;
+    top:40%;
+    left:50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    height:200px;
+    width:250px;
+    text-align: center;
+}
